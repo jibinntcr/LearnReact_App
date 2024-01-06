@@ -1,0 +1,17 @@
+.load-courses-btn {
+  height: 40px;
+  width: 200px;
+  background-color: #02c44d;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.load-courses-btn:hover {
+  background-color: white;
+  color: #02c44d;
+  transition: ease-in-out 0s;
+  cursor: pointer;
+  border: 1px solid #02c44d;
+}

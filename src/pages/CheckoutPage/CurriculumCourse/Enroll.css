@@ -1,0 +1,31 @@
+.enroll {
+  width: 90%;
+  color: #fff;
+  display: block;
+  text-align: center;
+  margin: 20px auto;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  background-color: #00e676;
+  transition: 0.3s;
+}
+.enroll:hover {
+  color: #00e676;
+  background-color: #fff;
+  border: 1px solid #00e676;
+  text-decoration: none;
+}
+/* Styles for the disabled state */
+.enroll:disabled,
+.enroll[disabled] {
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+  cursor: not-allowed; /* Optional: Show a "not-allowed" cursor for better visual feedback */
+}
+
+.enroll:disabled:hover,
+.enroll[disabled]:hover {
+  /* You can optionally add different styles for the disabled button when hovered */
+}
